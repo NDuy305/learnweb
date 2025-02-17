@@ -5,6 +5,7 @@ import { MatIcon } from "@angular/material/icon"
 
 @Component({
   selector: 'app-header',
+  standalone: true,
   imports: [
     MatIcon,
     MatButton,
